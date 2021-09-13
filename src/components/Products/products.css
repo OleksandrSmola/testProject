@@ -1,0 +1,39 @@
+
+.productsListItem{
+
+    background: linear-gradient(to bottom, #fefcea 7%,#f1da36 88%,#f1da36 88%,#f1da36 96%);
+}
+.productImg{
+    text-align: center;
+}
+
+.productImg img{
+    height: 200px;
+    width: auto;
+}
+
+.productsName{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.productsPrice{
+    margin-top: 20px;
+    margin: 20px 20px 0 20px;
+    font-size: 28px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+
+ 
+
+}
+.priceText{
+    color: black;
+    font-size: 18px;
+}
+.productsAddButton{
+
+
+}
