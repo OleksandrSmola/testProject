@@ -1,6 +1,7 @@
 import React from 'react'
 import Main from './container/Main/Main'
 import './app.css'
+import Header from './container/Header/Header'
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 backgroundRepeat: 'no-repeat',
             }}
         >
+            <Header />
             <div className="box">
                 <Main />
             </div>
