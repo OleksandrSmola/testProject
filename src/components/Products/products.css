@@ -1,15 +1,17 @@
 
 .productsListItem{
 
-    background: linear-gradient(to bottom, #fefcea 7%,#f1da36 88%,#f1da36 88%,#f1da36 96%);
+    /* background: linear-gradient(to bottom, #fefcea 7%,#f1da36 88%,#f1da36 88%,#f1da36 96%); */
 }
 .productImg{
     text-align: center;
+   
 }
 
 .productImg img{
     height: 200px;
     width: auto;
+    margin-top: 20px
 }
 
 .productsName{

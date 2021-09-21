@@ -1,9 +1,13 @@
 import React from 'react'
 import ProductsList from '../../components/Products/ProductsList'
-const Main = () => {
+
+const Main = ({ someFunction, isAddCartState }) => {
     return (
         <>
-            <ProductsList />
+            <ProductsList
+                someFunction={someFunction}
+                isAddCartState={isAddCartState}
+            />
         </>
     )
 }

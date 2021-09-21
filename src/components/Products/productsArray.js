@@ -6,6 +6,7 @@ const productsArray = [
         price: 120,
         image: './images/weeds.jpg',
     },
+
     {
         id: 2,
         name: 'Set of Honey',

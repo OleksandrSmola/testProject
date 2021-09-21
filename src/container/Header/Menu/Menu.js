@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }))
 
-const Menu = () => {
+const Menu = ({ countCart }) => {
     const classes = useStyles()
 
     return (
@@ -42,6 +42,7 @@ const Menu = () => {
                         </Typography>
                         <Button color="inherit">
                             <ShoppingCartIcon />
+                            {countCart}
                         </Button>
                         <Button color="inherit">Категорії</Button>
                         <Button color="inherit">Про нас</Button>

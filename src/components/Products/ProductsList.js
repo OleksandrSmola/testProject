@@ -3,7 +3,7 @@ import ProductsListItem from './ProductListItem'
 import productsArray from './productsArray'
 import { Grid } from '@material-ui/core'
 
-const ProductsList = () => {
+const ProductsList = ({ someFunction, isAddCartState }) => {
     return (
         <>
             <Grid
@@ -21,6 +21,8 @@ const ProductsList = () => {
                             logo={logo}
                             image={image}
                             price={price}
+                            someFunction={someFunction}
+                            isAddCartState={isAddCartState}
                         />
                     </Grid>
                 ))}
